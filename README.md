@@ -21,6 +21,7 @@ Este es un **carrito de compras** desarrollado en **React + TypeScript**, con b√
    git clone https://github.com/gpuc93/walmart-cart.git
    cd walmart-cart
 
-2. Create an environment file
+2. **Crea un archivo env con las siguientes variables:**
+   ```sh
    VITE_API_URL=https://axesso-walmart-data-service.p.rapidapi.com/wlm/
    VITE_API_KEY=<API_KEY>
