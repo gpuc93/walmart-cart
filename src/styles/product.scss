@@ -1,0 +1,68 @@
+
+  @use "./mixins" as *;
+
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .product-card--divider {
+    border-bottom: solid 1px #eeeeee;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    transition: transform 0.2s;
+    width: 250px;
+    flex-direction: column;
+    display: flex;
+    row-gap: 8px;
+  
+    img {
+        border-radius: 5px;
+        object-fit: cover;
+        width: 200px;
+        max-width: 100px;
+        min-width: 100px;
+        margin: 0 auto;
+    }
+
+    h3 {
+        width: 100%;
+    }
+
+    .product-card--name {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .product-card--price {
+        margin: 0;
+        margin-left: auto;
+        margin-top: auto;
+    }
+
+    .add-product--btn {
+            display: none;
+    }
+
+    @include tablet {
+        .add-product--btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .product-card--price {
+            margin-left: auto;
+            margin-right: auto;
+        }
+      }
+  }
+  
