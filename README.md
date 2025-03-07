@@ -25,3 +25,11 @@ Este es un **carrito de compras** desarrollado en **React + TypeScript**, con b√
    ```sh
    VITE_API_URL=https://axesso-walmart-data-service.p.rapidapi.com/wlm/
    VITE_API_KEY=<API_KEY>
+   
+3. **Ejecutar los siguientes comandos:**
+   ```sh
+   npm install
+
+4. **Correr el proyecto:**
+   ```sh
+   npm run dev
