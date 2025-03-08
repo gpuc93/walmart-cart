@@ -1,7 +1,8 @@
 @use "./mixins" as *;
 
 .cart-container {
-    
+    position: sticky;
+    top: 110px;
     width: 300px;
     background: white;
     border-radius: 5px;
@@ -11,8 +12,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-
-    margin: 0 auto;
+    margin-top: 10px;
 
     .cart--counter {
         margin-left: auto;
@@ -43,13 +43,6 @@
   
     h2 {
       margin: 0 0 10px;
-    }
-  
-    .cart-item {
-      display: flex;
-      justify-content: space-between;
-      padding: 5px 0;
-      border-bottom: 1px solid #ddd;
     }
   
     .empty-cart {

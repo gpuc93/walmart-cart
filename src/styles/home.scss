@@ -1,5 +1,6 @@
 .home--container {
-    padding: 0 20px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .virtual-scroll-container {
@@ -18,6 +19,8 @@
     width: 100%;
     max-width: 400px;
     margin: 10px auto;
+    position: sticky;
+    top: 291px;
   }
   
   .input-search {
@@ -50,6 +53,9 @@
     position: fixed;
     right: 0;
     top: 100px;
+    margin-top: 10px;
+    column-gap: 8px;
+    display: flex;
   }
 
   @media (max-width: 1024px) {
